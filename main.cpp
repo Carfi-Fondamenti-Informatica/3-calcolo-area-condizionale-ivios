@@ -2,5 +2,22 @@
 using namespace std;
 
 int main() {
-   return 0;
+    float a=0, b=0;
+    int opzione=0;
+    cin >> a >> b >> opzione;
+    switch (opzione) {
+        case 0:
+            cout << a*b*0.5 << endl;
+            break;
+        case 1:
+            cout << a*a << endl;
+            break;
+        case 2:
+            cout << a*b << endl;
+            break;
+        default:
+            cout << "opzione non valida" << endl;
+            break;
+    }
+    return 0;
 }
